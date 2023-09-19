@@ -1,0 +1,278 @@
+
+#made {
+    background-color: #007bff; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+#made h1 {
+    font-size: 2rem; 
+}
+
+#somos-maderita {
+    background-color: #f0f0f0; 
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}    
+
+.img-container {
+    flex: 1;
+    background-image: url('media/Diseño\ sin\ título.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+}
+
+.texto {
+    flex: 1;
+    padding: 20px; 
+}
+
+#somos-maderita h2 {
+    font-size: 1.5rem; 
+}
+
+.color-acento {
+    color: #007bff; 
+}
+#somos-maderita p {
+    font-size: 1rem; 
+}
+
+#misión-visión {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 13px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #666;
+}
+
+
+#misión-visión h2:nth-child(odd) {
+    color: #007bff;
+}
+
+#misión-visión h2:nth-child(even) {
+    color: #e74c3c;
+}
+#Nuestros-Productos {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.carta,
+.carta2,
+.carta3,
+.carta4 {
+    display: inline-block;
+    width: calc(25% - 20px); 
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.carta:hover,
+.carta2:hover,
+.carta3:hover,
+.carta4:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#final {
+    background-color: #007bff; 
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#final h2 {
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+}
+
+#final h3 {
+    font-size: 1.5rem; 
+    margin-top: 0; 
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align:justify;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+ul.navbar li{
+            
+    background-color:antiquewhite ;
+    margin: 0.8em 0;
+    padding: 0.3em 0;
+    border-right: 1em solid rgb(2, 200, 255);
+    justify-content: left;
+}
+ul.navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top:2em;
+    left: 2em;
+    width: 11em;
+}
+.navbar{
+    
+    border-radius: 40px;
+    display: inline;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    text-align: center;
+    background-color: #f0f0f0; 
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+legend h1 {
+    color: #0074cc; /* Azul */
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #0074cc; 
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+input[type="submit"] {
+    background-color: #0074cc; 
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #0074cc; 
+    border-radius: 5px;
+}
+
+input[type="email"]::placeholder {
+    color: #0074cc; 
+}
+
+
+

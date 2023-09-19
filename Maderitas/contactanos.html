@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    
+    <style>
+        /* Estilo para el cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif; /* Fuente del texto */
+            background-color: #f0f0f0; /* Color de fondo del cuerpo */
+            margin: 0; /* Eliminar el margen predeterminado */
+            padding: 0; /* Eliminar el relleno predeterminado */
+        }
+    
+        /* Estilo para el encabezado */
+        header {
+            background-color: #333; /* Color de fondo del encabezado */
+            color: #fff; /* Color del texto del encabezado */
+            text-align: center; /* Alinear el texto al centro */
+            padding: 20px; /* Espaciado interno del encabezado */
+        }
+        h1{
+            color:rgb(2, 200, 255) ;
+        }
+    
+        /* Estilo para el logotipo */
+        .logo {
+            font-size: 36px; /* Tamaño de fuente del logotipo */
+            margin: 0; /* Eliminar el margen predeterminado */
+        }
+    </style>
+    
+    <header>
+        <div class="header">
+        <center><h1 class="logo">MADERITAS</h1></center>
+        <h2>CONTACTANOS</h2>
+    
+        </div>
+    </header>
+    
+    <header>
+    
+        <div>
+            <ul class="navbar">
+                <li><a href="home.html">MADERITAS</a></li>               
+                <li><a href="contactanos.html">CONTACTANOS</a></li>            
+            </ul>
+        </div>
+
+    <section id="fomulario">
+        <center>
+        <form  name="formulario" method="get">
+            <fieldset>
+            <legend><h1>FORMULARIO</h1></legend>
+            <p><strong> INGRESE SU NOMBRE: <input type="text" name="nombre" size="50" autofocus></p></strong>
+            <P><strong>INGRESE SU EDAD: <input type="text" name="edad"></P></strong>
+            <p><strong>Genero:</strong></p>
+            <input type="radio" name="genero" value="femenino" checked="checked">Femenino
+            <input type="radio" name="genero" value="masculino">Masculino
+            <p><strong>Inngresa tu Numero Telefonico: <input type="tel" name="telefono" size="15"></strong></p>
+            <p><strong>Escribe tu Email:</strong><input type="email" name="email" placeholder="ejemplo@gmail.com" size="30" required></p>
+            <p><strong>Escribenos tus sugerencias:</strong><input type="text" name="sugerencia"  size="30" ></p>
+            <P>Seleccione la disponibilidad</P>
+            
+            <p><strong><select name="NOTIFICACIONES"><option value="medio">disponibilidad</option><option value="mañana">MAÑANA</option>
+                <option value="tarde">TARDE</option><option value="noche">NOCHE</option><option value="Fin-semana">FIN-SEMANA</option></select></strong></p>
+            
+            <p>Deseo recibir todas las novedades maderitas<br>
+                <input type="checkbox" name="aceptar" value="si" checked="checked">
+            <p>He leido y aceptado los terminos y condiciones<br>
+                <input type="checkbox" name="aceptar" value="si" checked="checked">
+                <p><input type="submit" name="enviar" value="Enviar">
+                    <input type="submit" name="limpiar" value="Borrar"></p>
+                    
+            </fieldset>
+        </form>
+        </center>
+</body>
+</html>
